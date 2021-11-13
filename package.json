@@ -1,0 +1,29 @@
+{
+  "name": "es2022-node-unit-test",
+  "version": "1.0.0",
+  "description": "A list of ECMA2022 features",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bounteous17/es2022-node-unit-test.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "v8",
+    "ecma",
+    "es2022"
+  ],
+  "author": "Àlex Serra",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Bounteous17/es2022-node-unit-test/issues"
+  },
+  "homepage": "https://github.com/Bounteous17/es2022-node-unit-test#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
