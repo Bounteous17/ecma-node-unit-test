@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Bounteous17/es2022-node-unit-test#readme",
   "devDependencies": {
+    "eslint": "^8.2.0",
     "jest": "^27.3.1"
   }
 }
