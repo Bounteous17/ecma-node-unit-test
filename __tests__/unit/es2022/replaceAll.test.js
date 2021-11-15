@@ -14,6 +14,9 @@ describe('replaceAll', () => {
     });
 
     describe('after ES2022 version', () => {
+        /**
+         * @link https://262.ecma-international.org/12.0/#sec-string.prototype.replaceall
+         */
         it('using a regex must replace all the charts matches', () => {
             const message = originalMessage.replaceAll('Back', 'Front');
             crossExpect(message);
