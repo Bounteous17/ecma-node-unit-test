@@ -1,14 +1,17 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es2022": true,
-        "jest": true,
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 13, // Same as 2022
-        "sourceType": "module"
-    },
-    "rules": {
-    }
+  env: {
+    commonjs: true,
+    es2021: true,
+    node: true,
+    jest: true,
+  },
+  extends: [
+    'airbnb-base',
+  ],
+  parserOptions: {
+    ecmaVersion: 13,
+  },
+  ignorePatterns: ['__tests__/fixtures/interpreter/to-interpretate.js'],
+  rules: {
+  },
 };
