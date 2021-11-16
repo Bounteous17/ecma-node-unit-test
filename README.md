@@ -1,4 +1,4 @@
-# es2022-node-unit-test
+# ecma-node-unit-test
 
 ## Checking NodeJS ECMA version support
 
