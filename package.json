@@ -4,7 +4,8 @@
   "description": "A list of ECMA different versions features",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "node --expose-gc ./node_modules/.bin/jest --verbose",
+    "lint:fix": "npx lint --fix"
   },
   "repository": {
     "type": "git",
